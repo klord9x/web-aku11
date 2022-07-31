@@ -66,7 +66,7 @@ if ( static_url.includes(current_url ) ) {
   function renderAutoComplete() {
     if (!showAutoComplete || input.length 
       ${results.map((result, index) => `
-        <a href="/site166/wp-content/plugins/simply-static-pro/assets/${result.url}" style="text-decoration:none;color:#000000">
+        <a href="/../wp-content/plugins/simply-static-pro/assets/${result.url}" style="text-decoration:none;color:#000000">
           <li class="auto-complete-item${index === selected ? " selected :>
             <p><b>${result.title}</b>
               <small>${result.excerpt}</small>
