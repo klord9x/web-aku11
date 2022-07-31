@@ -56,28 +56,6 @@ flexibility(document.documentElement);
 		<meta name="ssp-url" content="">
 		<meta name="ssp-config-url" content="/wp-content/plugins/simply-static-pro/configs/">
 		<link rel="pingback" href="/xmlrpc.php">
-<script type="text/javascript">
-    jQuery(function($) {
-        var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
-        $(document).ajaxSend(function(ev, jqhr, settings) {
-            if (settings.url.includes('.php') || settings.type == 'POST') {
-                settings.url = root + settings.url.replace(root,"");
-                settings.crossDomain = true;
-            }
-        })
-        $.ajaxSetup({
-            beforeSend: function(jqXHR, settings) {
-                if (settings.url.includes('.php') || settings.type == 'POST') {
-                    settings.url = root + settings.url.replace(root,"");
-                    settings.crossDomain = true;
-                }
-            },
-            dataFilter: function (response) {
-                return response.replaceAll(root,"");
-            }
-        });
-    });
-</script>
 
 </head>
 
@@ -255,5 +233,27 @@ var astraAddon = {"sticky_active":"","svgIconClose":"<span class=\"ast-icon icon
 			<script>
 			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 			</script>
-				</body>
+			<script type="text/javascript">
+    jQuery(function($) {
+        var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
+        $.ajaxSetup({
+            beforeSend: function(jqXHR, settings) {
+                if (settings.url.includes('.php') || settings.type == 'POST') {
+                    settings.url = root + settings.url.replace(root,"");
+                    settings.crossDomain = true;
+                }
+            },
+            dataFilter: function (response) {
+                return response.replaceAll(root,"");
+            }
+        });
+    });
+</script>
+	</body>
 </html>
