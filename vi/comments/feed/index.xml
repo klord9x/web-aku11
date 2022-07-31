@@ -11,7 +11,7 @@
 	<atom:link href="/vi/comments/feed/" rel="self" type="application/rss+xml" />
 	<link href="">/vi</link>
 	<description>Just another WordPress site</description>
-	<lastbuilddate>Wed, 20 Jul 2022 02:39:19 +0000</lastbuilddate>
+	<lastbuilddate>Wed, 29 Jun 2022 12:51:55 +0000</lastbuilddate>
 	<sy:updateperiod>
 	hourly	</sy:updateperiod>
 	<sy:updatefrequency>
@@ -20,10 +20,10 @@
 	<item>
 		<title>
 		Phản hồi cho Hello world! bởi A WordPress Commenter		</title>
-		<link href="">/vi/blog/2022/07/20/hello-world/#comment-1</link>
+		<link href="">/vi/blog/2022/06/29/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
-		<pubdate>Wed, 20 Jul 2022 02:39:19 +0000</pubdate>
+		<pubdate>Wed, 29 Jun 2022 12:51:55 +0000</pubdate>
 		<guid ispermalink="false">/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
