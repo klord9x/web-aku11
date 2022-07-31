@@ -58,6 +58,29 @@ flexibility(document.documentElement);
 		<meta name="ssp-url" content="">
 		<meta name="ssp-config-url" content="/wp-content/plugins/simply-static-pro/configs/">
 		<link rel="pingback" href="/xmlrpc.php">
+<script type="text/javascript">
+    jQuery(function($) {
+        var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
+        $.ajaxSetup({
+            beforeSend: function(jqXHR, settings) {
+                if (settings.url.includes('.php') || settings.type == 'POST') {
+                    settings.url = root + settings.url.replace(root,"");
+                    settings.crossDomain = true;
+                }
+            },
+            dataFilter: function (response) {
+                return response.replaceAll(root,"");
+            }
+        });
+    });
+</script>
+
 </head>
 
 <body data-rsssl="1" itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-1 single-format-standard translatepress-vi ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-right-sidebar astra-3.8.5 ast-normal-title-enabled astra-addon-3.6.11">
