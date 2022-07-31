@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Thu, 21 Jul 2022 01:59:48 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 29 Jun 2022 12:51:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,11 +21,11 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/blog/2022/07/21/hello-world/</link>
-					<comments>/blog/2022/07/21/hello-world/#comments</comments>
+		<link>/blog/2022/06/29/hello-world/</link>
+					<comments>/blog/2022/06/29/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[wpuser]]></dc:creator>
-		<pubDate>Thu, 21 Jul 2022 01:59:48 +0000</pubDate>
+		<pubDate>Wed, 29 Jun 2022 12:51:55 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
@@ -34,7 +34,7 @@
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/2022/07/21/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/blog/2022/06/29/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
