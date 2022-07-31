@@ -53,29 +53,7 @@ flexibility(document.documentElement);
 <link rel="alternate" hreflang="en" href="/blog/author/wpuser/">
 		<meta name="ssp-url" content="">
 		<meta name="ssp-config-url" content="/wp-content/plugins/simply-static-pro/configs/">
-		<script type="text/javascript">
-    jQuery(function($) {
-        var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
-        $(document).ajaxSend(function(ev, jqhr, settings) {
-            if (settings.url.includes('.php') || settings.type == 'POST') {
-                settings.url = root + settings.url.replace(root,"");
-                settings.crossDomain = true;
-            }
-        })
-        $.ajaxSetup({
-            beforeSend: function(jqXHR, settings) {
-                if (settings.url.includes('.php') || settings.type == 'POST') {
-                    settings.url = root + settings.url.replace(root,"");
-                    settings.crossDomain = true;
-                }
-            },
-            dataFilter: function (response) {
-                return response.replaceAll(root,"");
-            }
-        });
-    });
-</script>
-
+		
 </head>
 
 <body data-rsssl="1" itemtype="https://schema.org/Blog" itemscope="itemscope" class="archive author author-wpuser author-1 translatepress-vi ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-right-sidebar astra-3.8.5 astra-addon-3.6.11">
@@ -291,5 +269,27 @@ var astraAddon = {"sticky_active":"","svgIconClose":"<span class=\"ast-icon icon
 			<script>
 			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 			</script>
-				</body>
+			<script type="text/javascript">
+    jQuery(function($) {
+        var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
+        $(document).ajaxSend(function(ev, jqhr, settings) {
+            if (settings.url.includes('.php') || settings.type == 'POST') {
+                settings.url = root + settings.url.replace(root,"");
+                settings.crossDomain = true;
+            }
+        })
+        $.ajaxSetup({
+            beforeSend: function(jqXHR, settings) {
+                if (settings.url.includes('.php') || settings.type == 'POST') {
+                    settings.url = root + settings.url.replace(root,"");
+                    settings.crossDomain = true;
+                }
+            },
+            dataFilter: function (response) {
+                return response.replaceAll(root,"");
+            }
+        });
+    });
+</script>
+	</body>
 </html>
