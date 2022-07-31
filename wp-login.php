@@ -20,7 +20,7 @@
 		<div id="login">
 		<h1><a href="https://wordpress.org/">Powered by WordPress</a></h1>
 	
-		<form name="loginform" id="loginform" action="https://web-aku11-1.run.goorm.io/wp-login.php" method="post">
+		<form name="loginform" id="loginform" action="https://web-aku11.run-ap-south1.goorm.io/wp-login.php" method="post">
 			<p>
 				<label for="user_login">Username or Email Address</label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username">
@@ -38,7 +38,7 @@
 						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Remember Me</label></p>
 			<p class="submit">
 				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In">
-									<input type="hidden" name="redirect_to" value="https://web-aku11-1.run.goorm.io/wp-admin/">
+									<input type="hidden" name="redirect_to" value="https://web-aku11.run-ap-south1.goorm.io/wp-admin/">
 									<input type="hidden" name="testcookie" value="1">
 			</p>
 		</form>
@@ -73,7 +73,7 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script id="zxcvbn-async-js-extra">
-var _zxcvbnSettings = {"src":"https:\/\/web-aku11-1.run.goorm.io\/wp-includes\/js\/zxcvbn.min.js"};
+var _zxcvbnSettings = {"src":"https:\/\/web-aku11.run-ap-south1.goorm.io\/wp-includes\/js\/zxcvbn.min.js"};
 </script>
 <script src="/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
 <script src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
@@ -93,7 +93,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 </script>
 <script src="/wp-includes/js/wp-util.min.js?ver=6.0.1" id="wp-util-js"></script>
 <script id="user-profile-js-extra">
-var userProfileL10n = {"user_id":"0","nonce":"72d8902569"};
+var userProfileL10n = {"user_id":"0","nonce":"edfa370989"};
 </script>
 <script src="/wp-admin/js/user-profile.min.js?ver=6.0.1" id="user-profile-js"></script>
 			<script>
