@@ -93,7 +93,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 </script>
 <script src="/wp-includes/js/wp-util.min.js?ver=6.0.1" id="wp-util-js"></script>
 <script id="user-profile-js-extra">
-var userProfileL10n = {"user_id":"0","nonce":"edfa370989"};
+var userProfileL10n = {"user_id":"0","nonce":"33c95fdec5"};
 </script>
 <script src="/wp-admin/js/user-profile.min.js?ver=6.0.1" id="user-profile-js"></script>
 			<script>
