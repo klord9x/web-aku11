@@ -259,7 +259,7 @@ var astraAddon = {"sticky_active":"","svgIconClose":"<span class=\"ast-icon icon
 		<script type="text/javascript">
 			jQuery(function($) {
 				//"https://"+"web-aku6"+".run-us-west2.goorm.io";
-				var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io";
+				var root = "https://"+"web-aku11"+".run-ap-south1.goorm.io/";
 				$(document).ajaxSend(function(ev, jqhr, settings) {
 					if (settings.url.includes('.php') || settings.type == 'POST') {
 						settings.url = root + settings.url.replace(root,"");
