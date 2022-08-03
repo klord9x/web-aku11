@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>handmade &#8211; Site199</title>
+	<atom:link href="/site199/product-tag/handmade/feed/" rel="self" type="application/rss+xml" />
+	<link>/site199</link>
+	<description>Just another MySite_aku11 Sites site</description>
+	<lastBuildDate>Mon, 09 Apr 2018 09:38:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>Coco Soap</title>
+		<link>/site199/product/coco-soap/</link>
+					<comments>/site199/product/coco-soap/#respond</comments>
+		
+		<dc:creator><![CDATA[wpuser]]></dc:creator>
+		<pubDate>Mon, 09 Apr 2018 09:38:33 +0000</pubDate>
+				<guid isPermaLink="false">/site199/product/coco-soap/</guid>
+
+					<description><![CDATA[Fugit quos potenti beatae nullam fringilla cubilia tempora. Nulla tincidunt adipisci iusto porttitor donec tempor nisi ducimus quam.]]></description>
+										<content:encoded><![CDATA[<p>Fugit quos potenti beatae nullam fringilla cubilia tempora. Nulla tincidunt adipisci iusto porttitor donec tempor nisi ducimus quam. Per corrupti, arcu urna nec aute asperiores. Consequatur officiis quaerat accusantium. Quia, officiis. Mollit, quia! Commodi volutpat sunt! Similique curabitur quos morbi? Gravida omnis cubilia primis tempore.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/site199/product/coco-soap/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ayurvedic Soap</title>
+		<link>/site199/product/ayurvedic-soap/</link>
+					<comments>/site199/product/ayurvedic-soap/#respond</comments>
+		
+		<dc:creator><![CDATA[wpuser]]></dc:creator>
+		<pubDate>Mon, 09 Apr 2018 09:17:24 +0000</pubDate>
+				<guid isPermaLink="false">/site199/product/ayurvedic-soap/</guid>
+
+					<description><![CDATA[Sagittis odio suscipit odio libero tellus fugit accusantium tincidunt scelerisque, officia mi augue, ullamcorper, pulvinar ex egestas venenatis proident, morbi, adipisci cumque ratione, augue esse justo eu sit eros consectetuer faucibus metus asperiores.]]></description>
+										<content:encoded><![CDATA[<p>Mattis magnam duis! Facilisis minus iste, tellus condimentum volutpat? Scelerisque, error qui. Ac accusamus hymenaeos proin illo tempora quis! Gravida do? Eius, omnis error fuga quisque accusantium, nihil nam voluptas! Debitis, accumsan, aut nisi curae nonummy, omnis faucibus repudiandae, labore asperiores ex optio rhoncus hac.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/site199/product/ayurvedic-soap/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
